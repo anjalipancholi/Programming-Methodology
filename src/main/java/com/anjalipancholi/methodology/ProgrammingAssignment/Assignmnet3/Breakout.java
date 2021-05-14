@@ -1,4 +1,4 @@
-package com.anjalipancholi.methodology.assignment3;
+package com.anjalipancholi.methodology.ProgrammingAssignment.Assignmnet3;
 
 import acm.graphics.*;
 import acm.program.GraphicsProgram;
@@ -208,8 +208,6 @@ public class Breakout extends GraphicsProgram {
                 vy = -vy;
                 //remove the brick
                 remove(collider);
-
-
             }
         }
     }
