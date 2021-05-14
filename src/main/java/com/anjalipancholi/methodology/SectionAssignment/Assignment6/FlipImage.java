@@ -9,7 +9,7 @@ public class FlipImage extends GraphicsProgram {
         GImage image = new GImage("image");
         int width = (int) image.getWidth();
         int height = (int) image.getHeight();
-
+        //flip horizontally
         int[][] pixels = image.getPixelArray();
         for (int i = 0; i < pixels.length; i++) {
             for (int j = 0; j < pixels[0].length / 2; j++) {
